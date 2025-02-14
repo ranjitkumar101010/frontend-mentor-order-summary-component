@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-size: cover;
+    background-repeat: none;
+    background-color: #e0e8ff;
+    font-family: "Red Hat Display", serif;
+  }
+
+  .flxbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    height: 140vh;
+  }
+
+  .wrapper .desktop-bg-illustration {
+    height: 100vh;
+    width: 100%;
+    margin-top: -400px;
+  }
+
+  .container {
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 20px 25px #c4d2fc;
+    z-index: 1;
+    margin-top: -350px;
+  }
+
+  .hero-illustration {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+  }
+
+  .order-summary {
+    padding: 40px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .order-summary h1 {
+    font-weight: 900;
+    font-size: 26px;
+  }
+
+  .order-summary p {
+    width: 90%;
+    color: #8a8fa3;
+  }
+
+  .order-price-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fe;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .plan-details {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .plan {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .plan .plan-type {
+    font-weight: 900;
+  }
+
+  .plan .plan-price {
+    font-weight: normal;
+    color: #8a8fa3;
+  }
+
+  .plan-change-link {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+  }
+
+  .plan-change-link:hover {
+    color: #766cf1;
+  }
+
+  button {
+    width: 100%;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0px 10px 24px #362e9138;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+  }
+
+  button:hover {
+    background-color: #766cf1;
+  }
+
+  .cancel-order-link {
+    color: #8a8fa3;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+  }
+
+  .cancel-order-link:hover {
+    color: black;
+  }
+
+  footer {
+    padding: 10px;
+    margin-top: 50px;
+    background: white;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width: 375px) {
+    .container {
+      width: 90%;
+    }
+
+    .order-summary {
+      padding: 15px;
+    }
+  }
